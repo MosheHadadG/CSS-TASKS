@@ -1,0 +1,24 @@
+#Box {
+    margin: 0 auto;
+    width: 320px;
+    height: 450px;
+    box-shadow: 0 12px 12px 0 black;
+}
+
+#Box .imgBox {
+    width: 320px;
+    height: 250px;
+}
+
+#Box .headingBox {
+    font-weight: bold;
+}
+
+#Box .descBox {
+    font-size: 20px;
+}
+
+#Box .linksBox a {
+    color: #D87D16;
+    text-align: center;
+}
