@@ -1,0 +1,212 @@
+body {
+    background: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+header {
+    max-width: 100%;
+    margin-bottom: 50px;
+    background-color: #484848;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .Logo {
+    width: 20%;
+    height: 105px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.navbar .navbar-links li {
+    width: 13%;
+}
+
+.navbar .navbar-links a {
+    transition: 0.5s;
+}
+
+.navbar .navbar-links a:hover {
+    color: #d9d9d9;
+    font-size: 1.4em;
+    transition: 0.5s;
+}
+
+.navbar .navbar-links .active {
+    color: #d9d9d9;
+    font-size: 1.4em;
+}
+
+.navbar .navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Main */
+
+main {
+    width: 100%;
+    height: 600px;
+    background-color: #333;
+    position: relative;
+    border-radius: 5px;
+}
+
+.BoxProfile {
+    width: 320px;
+    height: 380px;
+    box-shadow: 0 16px 24px 0 black;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.BoxProfile .BoxProfileImg {
+    width: 320px;
+    height: 380px;
+    border-radius: 15px;
+}
+
+.headingSite {
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #d9d9d9;
+}
+
+.MyDesc article {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #d9d9d9;
+}
+
+.BoxFooter {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.BoxFooter .HeadingFooter {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+/* Social media */
+
+.BoxFooter .FollowMe {
+    width: 30%;
+    float: left;
+    margin-top: 36px;
+    margin-left: -100px;
+}
+
+.BoxFooter .FollowMe .FollowMeList {
+    list-style: none;
+    margin-left: -96px;
+}
+
+.FollowMe .FollowMeList li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.FollowMe .FollowMeList li img {
+    width: 40px;
+}
+
+.FollowMe .FollowMeList li img:hover {
+    opacity: 0.9;
+}
+
+
+/* Contact */
+
+.BoxFooter .ContactMe {
+    width: 30%;
+    float: left;
+    margin-left: 202px;
+    margin-top: 38px;
+}
+
+.ContactMe .ContactMeList {
+    list-style: none;
+    margin-left: -96px;
+}
+
+.ContactMe .ContactMeList li {
+    margin-top: 10px;
+}
+
+
+/* Last projects */
+
+.BoxFooter .LastProjects {
+    width: 30%;
+    float: left;
+    margin-left: 762px;
+    margin-top: -124px;
+}
+
+.LastProjects .LastProjectsList {
+    list-style: none;
+    margin-left: -96px;
+}
+
+.LastProjects .LastProjectsList li {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.LastProjects .LastProjectsList li a {
+    text-decoration: none;
+    color: #484848;
+}
+
+.LastProjects .LastProjectsList li a:hover {
+    color: #333;
+}

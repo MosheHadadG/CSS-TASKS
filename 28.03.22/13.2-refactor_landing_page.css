@@ -1,0 +1,98 @@
+* {
+    padding: 0.1px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    height: 15vh;
+    color: #ff4500;
+}
+
+header h1 {
+    margin: 3rem 3rem;
+}
+
+main {
+    background: url(13.2-main.jpg) center center/cover;
+    height: 65vh;
+    border-bottom: 2px solid #ff4500;
+    border-top: 2px solid #ff4500;
+}
+
+.Box {
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+    /* font-weight: bold; */
+    margin-top: 4rem;
+    color: #F4F4F4;
+}
+
+.Desc {
+    font-size: bold;
+}
+
+.Desc h2 {
+    margin-bottom: 0.5rem;
+}
+
+.Desc h4 {
+    font-size: 1.3rem;
+}
+
+.EmailBox {
+    margin-top: 1rem;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+form label {
+    display: block;
+    font-size: 1.3rem;
+    color: #ff4500;
+}
+
+form .Email {
+    width: 40%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 2px solid #333;
+}
+
+form .Btn {
+    display: block;
+    padding: 15px 28px;
+    border-radius: 0.8rem;
+    width: 43%;
+    background-color: orange;
+    border: 2px solid #333;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+form .Btn:hover {
+    opacity: 0.8;
+    transition: 0.5;
+}
+
+.Agree {
+    color: #ff4500;
+}
+
+footer {
+    background-color: #333;
+    height: 25vh;
+    color: #ff4500;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 1rem;
+}

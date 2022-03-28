@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+    main .LeftSide {
+        display: none;
+    }
+    main .RightSide {
+        width: 100%;
+    }
+}
