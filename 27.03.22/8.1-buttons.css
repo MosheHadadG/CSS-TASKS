@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(9, 32, 181);
+    color: white;
+}
+
+
+/* Flat */
+
+#Btn-1 {
+    padding: 15px 28px;
+    background-color: #4CAF50;
+}
+
+#Btn-2 {
+    padding: 10px 22px;
+    background-color: #f44336;
+}
+
+#Btn-3 {
+    padding: 6px 20px;
+    background-color: #008CBA;
+}
+
+.Btn-Flat {
+    border: none;
+    cursor: pointer;
+}
+
+.Btn-Flat:hover {
+    opacity: 0.5;
+}
+
+
+/* Round */
+
+#Btn-4 {
+    padding: 15px 28px;
+    background-color: orange;
+}
+
+#Btn-5 {
+    padding: 10px 22px;
+    background-color: yellow;
+}
+
+#Btn-6 {
+    padding: 6px 20px;
+    background-color: #555555;
+}
+
+.Btn-Round {
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.Btn-Round:hover {
+    opacity: 0.5;
+}
+
+
+/* Flat Ghost */
+
+.Btn-7 {
+    padding: 15px 28px;
+    background-color: rgb(9, 32, 181);
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    color: black;
+}
+
+.Btn-7:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Btn-8 {
+    padding: 10px 22px;
+    background-color: rgb(9, 32, 181);
+    border: 2px solid #f44336;
+    cursor: pointer;
+    color: black;
+}
+
+.Btn-8:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.Btn-9 {
+    padding: 6px 20px;
+    background-color: rgb(9, 32, 181);
+    border: 2px solid #008CBA;
+    cursor: pointer;
+    color: black;
+}
+
+.Btn-9:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+/* Round Ghost */
+
+.Btn-10 {
+    padding: 15px 28px;
+    background-color: rgb(9, 32, 181);
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.Btn-10:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Btn-11 {
+    padding: 10px 22px;
+    background-color: rgb(9, 32, 181);
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.Btn-11:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.Btn-12 {
+    padding: 6px 20px;
+    background-color: rgb(9, 32, 181);
+    border: 2px solid #008CBA;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.Btn-12:hover {
+    background-color: #008CBA;
+    color: white;
+}
