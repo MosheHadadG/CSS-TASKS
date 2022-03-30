@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
+/* Spinner 1 */
+
+.Spinner-1 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid gray;
+    border-bottom: 2px solid blue;
+    animation-name: Spinner-1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes Spinner-1 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Spinner 2 */
+
+.Spinner-2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-bottom: 3px solid blue;
+    animation-name: Spinner-1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes Spinner-2 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Spinner 3 */
+
+.Spinner-3 {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.Spinner-3-Part {
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: Spinner-3;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+#SP-3-B {
+    animation-delay: 0.5s;
+}
+
+#SP-3-C {
+    animation-delay: 1s;
+}
+
+@keyframes Spinner-3 {
+    to {
+        background-color: gray;
+    }
+}
+
+
+/* Spinner 4 */
+
+.Spinner-4 {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.Spinner-4-Part {
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: Spinner-4;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+#SP-4-B {
+    animation-delay: 0.5s;
+}
+
+#SP-4-C {
+    animation-delay: 1s;
+}
+
+@keyframes Spinner-4 {
+    0% {
+        transform: inherit;
+    }
+    33% {
+        transform: translateY(-15px);
+    }
+    66% {
+        transform: inherit;
+    }
+}
