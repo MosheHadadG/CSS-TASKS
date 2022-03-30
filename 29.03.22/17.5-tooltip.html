@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17.5-tooltip</title>
+    <style>
+        .Box {
+            width: 500px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        span {
+            color: green;
+        }
+        
+        [data-tooltip] {
+            position: relative;
+            cursor: default;
+        }
+        
+        [data-tooltip]::after {
+            position: absolute;
+            width: 140px;
+            left: calc(50% - 70px);
+            bottom: 20px;
+            text-align: center;
+            box-sizing: border-box;
+            content: attr(data-tooltip);
+            transition: 0.5s;
+            color: black;
+            background-color: yellow;
+            border-radius: 20px;
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        [data-tooltip]:hover::after {
+            transition: 0.5s;
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>hover on the green</h1>
+        <article class="Box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span data-tooltip="Something">Rerum</span> laudantium saepe modi. Quam aut dicta obcaecati voluptas corrupti culpa vero molestias? Expedita harum in officia aliquam eligendi, vel dolor
+                sed soluta tempore odio accusantium eum optio provident</p>
+        </article>
+
+        <article class="Box">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. earum modi ea beatae labore quis animi sequi, architecto qui maiores assumenda? Deleniti, cupiditate quasi. Ut, mollitia deserunt eveniet laboriosam, dolore accusantium quaerat animi
+                aliquid id dolorem facilis. Earum minus <span data-tooltip="Something 2">Praesentium</span></p>
+        </article>
+    </main>
+
+</body>
+
+</html>
