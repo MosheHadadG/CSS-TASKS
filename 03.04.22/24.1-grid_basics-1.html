@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.1-grid_basics-1</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 5px;
+        }
+        
+        .Box {
+            border: 1px black solid;
+            border-radius: 5px;
+            padding: 100px;
+        }
+        
+        .Item-1 {
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        
+        .Item-2 {
+            background-color: blue;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        
+        .Item-3 {
+            background-color: green;
+        }
+        
+        .Item-4 {
+            background-color: yellow;
+            grid-column-start: 2;
+            grid-column-end: 5;
+        }
+        
+        .Item-5 {
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Item-1 Box"></div>
+        <div class="Item-2 Box"></div>
+        <div class="Item-3 Box"></div>
+        <div class="Item-4 Box"></div>
+        <div class="Item-5 Box"></div>
+
+    </div>
+
+</body>
+</body>
+
+</html>

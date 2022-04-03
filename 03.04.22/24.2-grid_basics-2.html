@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.2-grid_basics-2</title>
+    <style>
+        .container {
+            display: grid;
+            /* Long */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+            /* Short */
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+        }
+        
+        .Box {
+            border: 1px black solid;
+            border-radius: 5px;
+            padding: 100px;
+        }
+        
+        .Item-1 {
+            background-color: red;
+            /* Long */
+            /* grid-column-start: 1;
+            grid-column-end: 5; */
+            /* Short */
+            grid-column: 1 / span 4;
+        }
+        
+        .Item-2 {
+            background-color: blue;
+            /* Long */
+            /* grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4; */
+            /* Short */
+            grid-column: 1 / span 2;
+            grid-row: 2 / span 3;
+        }
+        
+        .Item-3 {
+            background-color: green;
+            /* Long */
+            /* grid-column-start: 3;
+            grid-column-end: 5; */
+            /* Short */
+            grid-column: 3 / span 4;
+        }
+        
+        .Item-4 {
+            background-color: purple;
+        }
+        
+        .Item-5 {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Item-1 Box"></div>
+        <div class="Item-2 Box"></div>
+        <div class="Item-3 Box"></div>
+        <div class="Item-4 Box"></div>
+        <div class="Item-5 Box"></div>
+
+    </div>
+
+</body>
+
+</html>
